@@ -1,0 +1,45 @@
+@import url("https://fonts.cdnfonts.com/css/overpass");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+.App {
+  background-color: #131518;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "overpass";
+}
+.rate-div,
+.result-div {
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  padding: 24px 24px 32px 24px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.gray-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #969fad;
+}

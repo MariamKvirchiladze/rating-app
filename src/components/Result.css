@@ -1,0 +1,24 @@
+.result-div {
+  align-items: center;
+}
+
+.orange-p {
+  color: #fc7614;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+.results {
+  height: 32px;
+  width: 168px;
+  border-radius: 22.5px;
+  background-color: #262e38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+}
+.center-p {
+  text-align: center;
+}
