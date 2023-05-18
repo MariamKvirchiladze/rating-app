@@ -23,8 +23,7 @@
 
 ### Screenshot
 
-![webpage preview](../rating-app/src/assets/Mobile.png)
-![webpage preview](../rating-app/src/assets/Mobile%20-%20Thanks.png)
+![webpage preview](../rating-app/src/assets/Mobile.jpg)
 
 ## My process
 
