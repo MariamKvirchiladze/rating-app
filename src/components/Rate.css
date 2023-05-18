@@ -14,12 +14,19 @@
   border-radius: 50%;
   background-color: #262e38;
   color: #7c8798;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.buttons:hover {
+  background-color: #7c8798;
+  color: #fff;
 }
 .btn-div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  row-gap: 17px;
+  width: 281px;
   margin: 24px 0;
 }
 .submit {
@@ -29,8 +36,37 @@
   display: block;
   background-color: #fc7614;
   color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 2px;
+}
+.submit:hover {
+  background-color: #fff;
+  color: #fc7614;
 }
 .active {
   background-color: #fc7614;
   color: #fff;
+}
+.active:hover {
+  background-color: #fc7614;
+  color: #fff;
+}
+@media only screen and (min-width: 1200px) {
+  .star-div {
+    width: 48px;
+    height: 48px;
+  }
+  .buttons {
+    width: 51px;
+    height: 51px;
+  }
+  .btn-div {
+    width: 341px;
+  }
+  .submit {
+    width: 341px;
+  }
 }

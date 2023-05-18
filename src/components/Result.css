@@ -22,3 +22,12 @@
 .center-p {
   text-align: center;
 }
+@media only screen and (min-width: 1200px) {
+  .results {
+    width: 193px;
+  }
+  .orange-p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}

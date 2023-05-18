@@ -43,3 +43,23 @@ h1 {
   line-height: 22px;
   color: #969fad;
 }
+
+button {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1200px) {
+  .rate-div,
+  .result-div {
+    width: 412px;
+    padding: 32px 32px 39px 32px;
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .gray-p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
